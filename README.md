@@ -1,4 +1,26 @@
-# React + Vite
+# Mifrah Raiz - Engineering ePortfolio
+
+A dynamic scrollable engineering ePortfolio built with Vite + React.
+
+## Live Site
+Visit: https://bbbbokariiii.github.io/e-portflio-PER/
+
+## Features
+- Responsive design
+- Smooth scrolling navigation
+- Professional document layouts
+- Mobile-friendly interface
+
+## Development
+```bash
+npm install
+npm run dev
+```
+
+## Build
+```bash
+npm run build
+```+ Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
