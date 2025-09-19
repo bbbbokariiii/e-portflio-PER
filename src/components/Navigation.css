@@ -1,0 +1,106 @@
+/* Navigation Component Styles */
+.portfolio-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.nav-brand h2 {
+  color: #4a5568;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.nav-brand span {
+  color: #718096;
+  font-size: 0.9rem;
+  display: block;
+  margin-top: -0.25rem;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  color: #4a5568;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.nav-link:hover {
+  background: #e2e8f0;
+  color: #2d3748;
+}
+
+.nav-link.active {
+  background: #667eea;
+  color: white;
+}
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 0 1rem;
+  }
+  
+  .nav-brand h2 {
+    font-size: 1.2rem;
+  }
+  
+  .nav-brand span {
+    font-size: 0.8rem;
+  }
+  
+  .nav-menu {
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-menu {
+    gap: 0.5rem;
+  }
+  
+  .nav-link {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
